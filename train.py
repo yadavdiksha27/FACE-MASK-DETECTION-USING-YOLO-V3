@@ -134,4 +134,4 @@ if __name__ == "__main__":
                 to_get_mAP = 999999999999
 
         if epoch % opt.checkpoint_interval == 0:
-            torch.save(model.state_dict(), "checkpoints/23-04-2020__02-35/yolov3_ckpt_{0}__'{1}'__'{2}'.pth".format(epoch ,loss.item(),to_get_mAP))
+            torch.save(model.state_dict(), "checkpoints/13-08-2024/yolov3_ckpt_{0}__'{1}'__'{2}'.pth".format(epoch ,loss.item(),to_get_mAP))
